@@ -4,7 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lode Runner</title>
+    <meta name="description" content="ファンメイドのLode Runnerゲーム。クラシックな冒険を現代のテクノロジーで再現。今すぐプレイして、懐かしのワールドを体験しよう！NES版とIREM版のいいとこどり">
+    <meta name="keywords" content="Lode Runner, ロードランナー, ファミコン, ファンメイド, クラシックゲーム, フリーゲーム, レトロゲーム, アーケード, NES, IREM">
+    <title>Lode Runner - クラシックゲームをオンラインで</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        .main-header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+        .main-header h1 {
+            margin: 0;
+            font-size: 3rem;
+            animation: colorChange 1s infinite;
+        }
+        @keyframes colorChange {
+            0% {color: #f44336;}
+            25% {color: #e91e63;}
+            50% {color: #9c27b0;}
+            75% {color: #673ab7;}
+            100% {color: #3f51b5;}
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 3px solid #333;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+    </style>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -18,12 +61,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2P4BC7T"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<a href="LodeRunner.html">
-    <img src="LodeRunner.png" alt="Screen Shot">
-</a>
-<p>Click to Play !</p>
-
+    <header class="main-header">
+        <div class="container">
+            <h1>Lode Runner</h1>
+        </div>
+    </header>
+    <div class="container">
+        <a href="LodeRunner.html">
+            <img src="LodeRunner.png" alt="Lode Runner スクリーンショット">
+        </a>
+        <p>クラシックな冒険を現代のスタイルで！<br>今すぐクリックしてプレイ！</p>
+    </div>
 </body>
 </html>
-
-
